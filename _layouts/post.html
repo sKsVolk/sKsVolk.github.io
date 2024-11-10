@@ -175,4 +175,14 @@ tail_includes:
     <!-- .post-tail-bottom -->
   </div>
   <!-- div.post-tail-wrapper -->
+   <!-- Comment system with Utterances -->
+  {% if page.comments %}
+  <script src="https://utteranc.es/client.js"
+          repo="sKsVolk/sKsVolk.github.io"
+          issue-term="pathname"
+          theme="github-dark"
+          crossorigin="anonymous"
+          async>
+  </script>
+{% endif %}
 </article>
